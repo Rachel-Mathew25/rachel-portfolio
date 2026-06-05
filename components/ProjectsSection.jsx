@@ -14,6 +14,15 @@ export default function ProjectsSection() {
         "Scikit-learn",
       ],
     },
+    {
+      title: "AI Blood Report Analyzer",
+      description:
+        "AI-powered application that analyzes uploaded blood reports, identifies abnormal biomarkers, and generates personalized Indian diet recommendations using LangChain and Gemini.",
+      image: "/blood-report-cover.png",
+      demo: "https://blood-report-ai-analyzer-3nxet8ghagkgy3nluenrtk.streamlit.app",
+      github: "https://github.com/Rachel-Mathew25/blood-report-ai-analyzer",
+      tech: ["Python", "Streamlit", "LangChain", "Gemini", "Groq"],
+    },
   ];
 
   return (
