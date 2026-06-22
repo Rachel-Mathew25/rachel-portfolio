@@ -1,5 +1,22 @@
 export default function ProjectsSection() {
   const projects = [
+        {
+      title: "Semantic Code Search Engine",
+      description:
+        "Production-style semantic code search engine that indexes Python repositories using AST-based chunking, vector embeddings, and two-stage retrieval with cross-encoder reranking.",
+      image: "/semantic-search-cover.png",
+      demo: "https://huggingface.co/spaces/Rachel-Mathew/semantic-search-engine",
+      github: "https://github.com/Rachel-Mathew25/semantic-code-search",
+      tech: [
+        "rag","nip",
+        "Python",
+        "FastAPI",
+        "Sentence Transformers",
+        "ChromaDB",
+        "Cross Encoder",
+        "Streamlit",
+      ],
+    },
     {
       title: "Tumor AI Detection System",
       description:
