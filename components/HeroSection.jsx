@@ -66,7 +66,7 @@ function ProfileImage() {
 
       <div className="relative w-40 h-40 md:w-52 md:h-52 rounded-full ring-1 ring-blue-500/30 overflow-hidden bg-gradient-to-br from-zinc-800 to-zinc-900">
         <img
-          src="/profile.png"
+          src="/profile2.png"
           alt="Rachel Mathew"
           className="w-full h-full object-cover"
         />
